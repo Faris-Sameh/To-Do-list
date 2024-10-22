@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>To do List</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- Bootstrap -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css -->
+     <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container pt-5 mt-5">
+      <div class="row">
+        <div class="col-md-10 m-auto">
+          <h2 class="text-center mt-5">To do List</h2>
+          <form onsubmit="return getData()">
+            <input type="text" placeholder="Enter your work" id="work" class="form-control mb-4">
+            <input type="submit" value="Enter" class="btn btn-success w-100">
+          </form>
+          <div class="mt-5 list">
+            <ol id="result">
+
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Custom scripts -->
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>
